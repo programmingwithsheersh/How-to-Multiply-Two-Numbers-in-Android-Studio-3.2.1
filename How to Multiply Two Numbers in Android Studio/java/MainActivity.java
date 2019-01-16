@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 double a,b,c;
                 a = Double.parseDouble(Num1.getText().toString());
                 b = Double.parseDouble(Num2.getText().toString());
-                c = a-b;
+                c = a * b;
                 Result.setText(Double.toString(c));
             }
         });
